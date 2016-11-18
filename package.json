@@ -1,0 +1,21 @@
+{
+  "name": "rdf-parser-jsonld-browser",
+  "version": "0.3.0b",
+  "description": "A browser friendly version of rdf-parser-jsonld",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "mkdir -p dist && browserify index.js --external rdf-ext > dist/jsonld-parser.js"
+  },
+  "author": "Reto Gmür <me@farewellutopia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rdf-parser-jsonld": "0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retog/rdf-parser-jsonld-browser.git"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  }
+}
