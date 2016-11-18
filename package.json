@@ -1,6 +1,6 @@
 {
   "name": "rdf-parser-jsonld-browser",
-  "version": "0.3.0b",
+  "version": "0.3.0",
   "description": "A browser friendly version of rdf-parser-jsonld",
   "main": "index.js",
   "scripts": {
